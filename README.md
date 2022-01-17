@@ -16,4 +16,4 @@ How to Install and Run
 
 Credits
 ===
-Author: Ronald Chen.
+Author: Ronald Chen
