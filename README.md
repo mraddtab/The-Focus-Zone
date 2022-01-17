@@ -13,3 +13,7 @@ How to Install and Run
 1. Download the "vids.zip" from https://www.dropbox.com/s/s1zau8nja3vc9tu/vids.zip?dl=0
 2. Unzip the file, and place the folder "vids" into the main directory.
 3. Run "timer.html" using a browser of your choice. 
+
+Credits
+===
+Author: Ronald Chen.
