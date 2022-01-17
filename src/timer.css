@@ -1,0 +1,146 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Code starts here*/
+/*[#623CEA, #8C8686, #FFFFFF, #000000 #ADD8E6]*/
+body{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    background-color: #623cea;
+    font-weight: 700;
+    z-index: 1;
+}
+video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.8;
+    pointer-events:none;
+    z-index: 1;
+}
+h1{
+    position: relative;
+    font-size: 64px;
+    margin-top: 96px;
+    margin-bottom: 100px;
+    z-index: 7;
+}
+h2{
+    position: relative;
+    margin-bottom: 50px;
+    font-size: 36px;
+    z-index: 7;
+}
+h3{
+    position: relative;
+    margin: 25px;
+    font-size: 146px;
+    z-index: 7;
+}
+.btn{
+    position: relative;
+    color: #623cea;
+    background-color: white;
+    font-size: 24px;
+    font-weight: 700;
+    z-index: 7;
+}
+.overlay{
+    z-index: 2;
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height: 100%;
+    background-color: rgba(0, 0, 255, 0.9s);
+}
+span{
+    position: relative;
+    z-index: 2;
+}
+
+
+#timer-reset{
+    width: 100px;
+    height: 50px;
+}
+#timer-reset:active{
+    transform: scale(0.98);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+#timer-play{
+    height: 50px;
+    width: 200px;
+}
+#timer-theme{
+    z-index: 7;
+    position: relative;
+    margin-top: 5px;
+    text-align: center;
+    font-weight: bolder;
+    color: #623cea;
+    width: 250px;
+    height: 25px;
+}
+#timer-volume{
+    display: inline;
+    position: relative;
+    text-align: center;
+    height: 8px;
+    z-index: 7;
+    margin-top: 1px;
+    width: 245px;
+    background: black;
+}
+
