@@ -5,7 +5,7 @@ Motivation
 ===
 As a college student I'm always looking for ways to increase my productivity, leading me to the pomodoro technique. Studies have shown that by splitting up large tasks into smaller chunks of uninterrupted focused work, productivity increases greatly. Combine this with ambient background noises, and aesthetically pleasing background videos and you have a recipe for maximum focus. This has led me to create The Focus Zone, a simple web app designed to create a productive and relaxing atmosphere. This project was done to learn more front-end development and will be used as a widget for my larger fullstack "To-Do" project.
 
-How to Install and Run 
+How to Install and Run
 ===
 1. Download the "vids.zip" from https://www.dropbox.com/s/s1zau8nja3vc9tu/vids.zip?dl=0
 2. Unzip the file, and place the folder "vids" into the main directory.
