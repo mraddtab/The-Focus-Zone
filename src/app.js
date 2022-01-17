@@ -12,8 +12,8 @@ let mins = 25;
 let secs = 00;
 let paused = true;
 let state = 'Work';
-let bell = new Audio("/sounds/bell.mp3");
-let press = new Audio("/sounds/buttonPress.mp3");
+let bell = new Audio("../sounds/bell.mp3");
+let press = new Audio("../sounds/buttonPress.mp3");
 /*  
 Function Name: updateCountdown()
 Function Summary: Updates the variables mins and secs and calls 
@@ -42,6 +42,7 @@ function updateCountdown(){
         }
     }
 }
+
 /*  
 Function Name: timerDone()
 Function Summary:Executes when timer reaches 0:00 Updates interface and
@@ -148,20 +149,20 @@ timerTheme.addEventListener('change', () => {
         timerReset.style.color = 'black';
         timerTheme.style.color = 'black';
         if(selection == 1){
-            timerVid.src = "/vids/rain.mp4"
-            timerAudio.src = "/sounds/rain.wav"
+            timerVid.src = "../vids/rain.mp4"
+            timerAudio.src = "../sounds/rain.wav"
         }
         else if (selection == 2){
-            timerVid.src = "/vids/snow.mp4"
-            timerAudio.src = "/sounds/snow.wav"
+            timerVid.src = "../vids/snow.mp4"
+            timerAudio.src = "../sounds/snow.wav"
         }
         else if(selection == 3){
-            timerVid.src = "/vids/cafe.mp4"
-            timerAudio.src = "/sounds/cafe.mp3"
+            timerVid.src = "../vids/cafe.mp4"
+            timerAudio.src = "../sounds/cafe.mp3"
         }
         else if (selection == 4){
-            timerVid.src = "/vids/space.mp4"
-            timerAudio.src = "/sounds/space.wav"
+            timerVid.src = "../vids/space.mp4"
+            timerAudio.src = "../sounds/space.wav"
         }
     }
     
