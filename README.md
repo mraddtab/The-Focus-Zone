@@ -10,13 +10,13 @@ This project is set to serve as one of many widgets in a larger web-application 
 Screenshots
 ===
 - Rain
-<img src = "Screenshots/rain.png"> </img>
+<img src = "Screenshots/Rain.png"> </img>
 - Snow
-<img src = "Screenshots/snow.png"> </img>
+<img src = "Screenshots/Snow.png"> </img>
 - Cafe
-<img src = "Screenshots/cafe.png"> </img>
+<img src = "Screenshots/Cafe.png"> </img>
 - Space 
-<img src = "Screenshots/space.png"> </img>
+<img src = "Screenshots/Space.png"> </img>
 Features
 ===
 - 25-5 minute work and break intervals.
