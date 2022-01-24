@@ -7,6 +7,14 @@ As a college student I'm always looking for ways to increase my productivity, le
 
 This project is set to serve as one of many widgets in a larger web-application named "ToDo", a project aimed at creating an online tool designed to help students manage their time, and build effective studying habits. This is my first project done using HTML5,CSS and JavaScript.
 
+Features
+===
+- 25-5 minute work and break intervals.
+- Audio indicator when work/break time is done.
+- Timer reset and pause functionality.
+- Volume control.
+- Select from up to 5 themes with custom videos and sounds.
+
 Screenshots
 ===
 - Rain
@@ -18,23 +26,12 @@ Screenshots
 - Space 
 <img src = "Screenshots/Space.png"> </img>
 
-Features
-===
-- 25-5 minute work and break intervals.
-- Audio indicator when work/break time is done.
-- Timer reset and pause functionality.
-- Volume control.
-- Select from up to 5 themes with custom videos and sounds.
 
 How to Install and Run
 ===
 1. Download the "vids.zip" from https://www.dropbox.com/s/s1zau8nja3vc9tu/vids.zip?dl=0
 2. Unzip the file, and place the folder "vids" into the main directory.
 3. Run "timer.html" using a browser of your choice. 
-
-
-
-
 
 Future Improvments and Current Shortcomings
 === 
