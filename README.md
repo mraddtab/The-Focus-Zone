@@ -7,9 +7,12 @@ As a college student I'm always looking for ways to increase my productivity, le
 
 This project is set to serve as one of many widgets in a larger web-application named "ToDo", a project aimed at creating an online tool designed to help students manage their time, and build effective studying habits. This is my first project done using HTML5,CSS and JavaScript.
 
+Screenshots
+===
 Features
 ===
 - 25-5 minute work and break intervals.
+- Audio indicator when work/break time is done.
 - Timer reset and pause functionality.
 - Volume control.
 - Select from up to 5 themes with custom videos and sounds.
@@ -23,18 +26,6 @@ How to Install and Run
 
 
 
-How to Install and Run
-===
-1. Download and unzip "Flashcards-main" to a directory of your choice.
-2. Open "home.html".
-3. Click on "Create a new Study set".
-<img src="/Screenshots/Home.png" alt="Home page"/>
-5. Come up with a title, and add cards.
-<img src="/Screenshots/Create.png" alt="Createe"/>
-7. Click 'Create' when done and find your newly created study set on the home page. 
-8. Use left and right arrow keys to go backwards and foward, and spacebar to flip the card.
-<img src="/Screenshots/FCTD.png" alt="Term"/>
-<img src="/Screenshots/FCT.png" alt="Definition"/>
 
 Future Improvments and Current Shortcomings
 === 
